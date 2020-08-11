@@ -17,7 +17,7 @@ public class ContactActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact);
 
-        textView = findViewById(R.id.textView);
+        textView = findViewById(R.id.txtLinke);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
