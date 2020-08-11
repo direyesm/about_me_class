@@ -7,12 +7,13 @@
     tools:context=".ContactActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="52dp"
-        android:layout_height="23dp"
-        android:layout_marginStart="204dp"
-        android:layout_marginTop="184dp"
-        android:text="TextView"
+        android:id="@+id/txtLinke"
+        android:layout_width="120dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="140dp"
+        android:text="@string/txtLinke"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

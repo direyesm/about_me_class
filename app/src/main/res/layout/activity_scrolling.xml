@@ -26,9 +26,8 @@
             <ImageView
                 android:id="@+id/logo_iv"
                 android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/unnamed" />
+                android:layout_height="match_parent"
+                android:scaleType="center" />
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
